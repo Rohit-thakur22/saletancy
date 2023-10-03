@@ -6,7 +6,7 @@ const Testimonial = () => {
   return (
     <div className="container mx-auto w-full p-4 py-16 md:px-10">
       <h1 className="text-center font-extrabold tracking-wide text-4xl">
-        Customer's success stories{" "}
+        Customer&apos;s success stories{" "}
       </h1>
       <h1 className="text-center text-[#2E2F31] font-bold text-xl">
         Read how our customers from all different industries thrive with

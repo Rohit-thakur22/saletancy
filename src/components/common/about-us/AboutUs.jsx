@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="w-full py-16">
       <h1 className="text-center font-extrabold tracking-wide text-4xl">
-        We're Born to Perform{" "}
+        We&apos;re Born to Perform{" "}
       </h1>
       <h1 className="text-center text-[#2E2F31] font-bold text-xl">
         Real numbers from real customers{" "}
@@ -92,7 +92,7 @@ const AboutUs = () => {
             <div className="z-50 flex flex-col gap-4 p-4 text-white">
               <h1 className="font-extrabold text-2xl">People</h1>
               <p className="text-[#D2D2D2]">
-                We're Empowered by 110+ Highly Skilled and Passionate Sales and
+                We&apos;re Empowered by 110+ Highly Skilled and Passionate Sales and
                 Marketing Professionals You Can Rely On
               </p>
             </div>
