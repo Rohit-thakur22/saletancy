@@ -54,7 +54,7 @@ const CompanySlider = () => {
     "/icons/company6.png",
   ];
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="h-[20vh]">
       {images.map((item, index) => {
         return <Image src={item} width={500} height={500} key={index} />;
       })}

@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Testimonial = () => {
   return (
-    <div className="container mx-auto w-full p-4 py-16 md:px-10">
+    <div className="container mx-auto w-full p-2 py-16 md:px-10">
       <h1 className="text-center font-extrabold tracking-wide text-4xl">
         Customer&apos;s success stories{" "}
       </h1>
@@ -12,10 +12,10 @@ const Testimonial = () => {
         Read how our customers from all different industries thrive with
         Saletancy{" "}
       </h1>
-      <div className="container items-center p-6  mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-        <div className="border-2 rounded-3xl p-6 flex flex-col justify-evenly space-y-4">
+      <div className="container items-center p-2  mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div className="border-2 rounded-3xl p-3 flex flex-col justify-evenly space-y-4">
           <div
-            className="h-[200px] flex-wrap bg-cover object-fill rounded-3xl flex justify-start items-start gap-4 p-4"
+            className="h-[200px] flex-wrap bg-cover object-fill rounded-3xl flex justify-start items-start gap-2 p-2"
             style={{
               backgroundImage: "url(/images/testimonial1.png)",
             }}

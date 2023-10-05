@@ -48,19 +48,19 @@ const Performance = () => {
     },
   ];
   return (
-    <div className="w-full py-16">
-      <h1 className="text-center font-extrabold tracking-wide text-4xl">
+    <div className="w-full py-16 p-2">
+      <h1 className="text-center font-extrabold tracking-wide text-2xl sm:text-4xl">
         Performance-Driven Sales and Marketing Solutions{" "}
       </h1>
       <h1 className="text-center text-[#2E2F31] font-bold text-xl">
         At Saletancy, marketing and sales are in our DNA{" "}
       </h1>
-      <div className=" container p-6  md:px-20 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className=" container p-2  md:px-20 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {perArray.map((item) => {
           return (
             <div
               key={item.id}
-              className="border-2 px-8 rounded-3xl h-[400px] p-6 flex flex-col justify-evenly items-start"
+              className="border-2 p-4 sm:px-8 rounded-3xl h-[400px] flex flex-col justify-evenly items-start"
             >
               <Image src={item.img} width={100} height={100} />
               <h1 className="font-bold text-2xl">{item.title}</h1>

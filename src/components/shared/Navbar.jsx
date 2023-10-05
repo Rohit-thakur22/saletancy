@@ -33,7 +33,7 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="absolute left-[19%] -z-10 ">
+          <div className="absolute left-[20%] -z-10 ">
             <Image
               src={"/images/navbar-ractangle.png"}
               width={500}
@@ -438,8 +438,8 @@ const Navbar = () => {
           <div
             className={
               openNav
-                ? "fixed left-0 top-0 w-[85%] sm:w-[70%] md:w-[45%] h-screen  bg-[#ffffff]  p-8 ease-in duration-500 overflow-y-auto z-50"
-                : "fixed left-[-100%] top-0 w-[85%] sm:w-[70%] h-screen md:w-[45%] p-10 ease-in duration-500 "
+                ? "fixed left-0 top-0 w-[100%] sm:w-[80%] md:w-[60%] h-screen  bg-[#ffffff]  p-8 ease-in duration-500 overflow-y-auto z-[9999]"
+                : "fixed left-[-100%] top-0 w-[85%] sm:w-[70%] h-screen md:w-[45%] p-10 ease-in duration-500 z-50"
             }
           >
             <div className="flex w-full items-center justify-evenly ">
@@ -477,7 +477,7 @@ const Navbar = () => {
                   className=" text-2xl font-bold"
                 >
                   Solutions
-                </li> 
+                </li>
               </Link>{" "}
               <Link href={"/#"} className="border-b-2 p-2">
                 <li
@@ -507,7 +507,7 @@ const Navbar = () => {
                   className=" text-2xl font-bold"
                 >
                   About us                </li>
-              </Link><Link href={"/#"}className="border-b-2 p-2" >
+              </Link><Link href={"/#"} className="border-b-2 p-2" >
                 <li
                   onClick={() => {
                     setOpenNav(false);
@@ -517,6 +517,11 @@ const Navbar = () => {
                   Resources                </li>
               </Link>
             </ul>
+            <div className="w-full flex justify-center items-center">
+              <button className="p-4  basis-[80%] justify-center text-[#262626] bg-[#37ED81] rounded-full font-bold flex gap-2 items-center">
+                Get Started <AiOutlineArrowRight className="text-[#262626] font-extrabold" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

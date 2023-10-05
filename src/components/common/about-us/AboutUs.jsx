@@ -12,7 +12,7 @@ const AboutUs = () => {
         Real numbers from real customers{" "}
       </h1>
       <div
-        className="h-[2250px] sm:h-[1620px]  md:h-[1400px] bg-cover object-cover"
+        className="h-[2420px] sm:h-[1620px]  md:h-[1400px] bg-cover object-cover"
         style={{
           backgroundImage: "url(/images/about-bg.svg)",
         }}
