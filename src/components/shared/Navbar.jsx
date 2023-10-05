@@ -29,11 +29,11 @@ const Navbar = () => {
                 src={"/icons/logo-res.png"}
                 width={10}
                 height={10}
-                className="  xl:hidden"
+                className="xl:hidden"
               />
             </Link>
           </div>
-          <div className="absolute left-[20%] -z-10 ">
+          <div className="absolute left-[19%] -z-10 ">
             <Image
               src={"/images/navbar-ractangle.png"}
               width={500}
@@ -517,7 +517,7 @@ const Navbar = () => {
                   Resources                </li>
               </Link>
             </ul>
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full flex justify-center items-center h-[20vh]">
               <button className="p-4  basis-[80%] justify-center text-[#262626] bg-[#37ED81] rounded-full font-bold flex gap-2 items-center">
                 Get Started <AiOutlineArrowRight className="text-[#262626] font-extrabold" />
               </button>
